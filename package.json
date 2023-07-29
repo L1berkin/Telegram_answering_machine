@@ -1,0 +1,28 @@
+{
+  "name": "telegram_answering_machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denisov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.6",
+    "nodemon": "^2.0.22",
+    "prettier": "2.8.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.3",
+    "config": "^3.3.9",
+    "node-telegram-bot-api": "^0.61.0",
+    "redis": "^4.6.5",
+    "redis-om": "^0.4.0-beta.3",
+    "ts-node": "^10.9.1",
+    "uuid": "^9.0.0"
+  }
+}
